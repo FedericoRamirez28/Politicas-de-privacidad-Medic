@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Política de Privacidad - Medic App</title>
+  <style>
+    :root{
+      --brand-blue: #011E36;
+      --brand-green:#006839;
+      --brand-red:#D22630;
+      --text:#1A1F36;
+      --muted:#5B6B8B;
+      --bg:#F5F8FD;
+      --card:#FFFFFF;
+      --border:#E4E9F2;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif;line-height:1.6}
+    a{color:var(--brand-green);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{
+      max-width:960px;margin:40px auto;padding:0 20px 60px;
+    }
+    header.hero{
+      background: linear-gradient(135deg, var(--brand-blue) 0%, #02315f 60%);
+      color:#fff;border-bottom:4px solid var(--brand-green);
+      border-radius:18px; padding:28px 24px; position:relative; overflow:hidden;
+      box-shadow:0 10px 24px rgba(1,30,54,0.15);
+    }
+    header.hero h1{margin:0;font-size:clamp(26px,3.5vw,40px);letter-spacing:.3px}
+    header.hero p{margin:.35rem 0 0;color:#DDE7FF}
+    .badge{
+      display:inline-block;background:rgba(0,0,0,.15);padding:6px 10px;border-radius:999px;
+      font-size:12px;margin-top:10px;letter-spacing:.3px
+    }
+    main{margin-top:22px}
+    .card{
+      background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px;
+      margin:18px 0;box-shadow:0 6px 18px rgba(17,23,41,0.06)
+    }
+    h2{font-size:clamp(20px,2.6vw,26px);color:var(--brand-blue);margin:0 0 12px}
+    h3{font-size:clamp(16px,2.2vw,20px);margin:16px 0 8px;color:var(--text)}
+    p{margin:.5rem 0 1rem}
+    ul{padding-left:1.1rem;margin:.4rem 0 1rem}
+    li{margin:.35rem 0}
+    .callout{
+      border-left:4px solid var(--brand-green);padding:12px 14px;background:#F2FAF5;border-radius:12px
+    }
+    .footer{
+      text-align:center;color:var(--muted);margin-top:28px;font-size:14px
+    }
+    .logo{
+      position:absolute;right:16px;bottom:-10px;opacity:.1;filter:grayscale(100%);
+      width:min(240px,35vw);height:auto;pointer-events:none;
+    }
+    .nav{
+      display:flex;gap:12px;margin-top:14px;flex-wrap:wrap
+    }
+    .nav a{
+      background:#ffffff1a;border:1px solid #ffffff33;color:#fff;padding:8px 12px;border-radius:999px;
+      font-size:13px;backdrop-filter: blur(3px)
+    }
+    .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:10px}
+    .kpi{background:#fff1;border:1px solid #ffffff22;border-radius:12px;padding:10px 12px;color:#E9F2FF}
+    .kpi b{display:block;font-size:18px;color:#fff}
+    @media (max-width:640px){
+      .kpis{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero" role="banner">
+      <h1>Política de Privacidad — Medic App</h1>
+      <p>Última actualización: <strong>septiembre 2025</strong></p>
+      <div class="nav">
+        <a href="#informacion">Información recopilada</a>
+        <a href="#uso">Uso de la información</a>
+        <a href="#seguridad">Seguridad</a>
+        <a href="#terceros">Terceros</a>
+        <a href="#derechos">Derechos del usuario</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <img class="logo" alt="Medic" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512'%3E%3Crect width='512' height='512' fill='white'/%3E%3C/svg%3E">
+      <div class="kpis">
+        <div class="kpi"><b>Uso interno</b> App destinada a socios de Medic</div>
+        <div class="kpi"><b>Sin anuncios</b> No empleamos redes publicitarias</div>
+        <div class="kpi"><b>Permisos mínimos</b> Cámara e Internet</div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section id="intro" class="card">
+        <p>
+          En <strong>Medic Emergencias Médicas</strong> respetamos y protegemos la privacidad de nuestros socios y usuarios.
+          Esta política describe qué datos maneja <strong>Medic App</strong>, con qué finalidad y cómo los protegemos.
+        </p>
+        <div class="callout">
+          <strong>Resumen:</strong> La aplicación no recopila información personal sensible ni comparte datos con terceros.
+          Solo utiliza permisos técnicos esenciales para su funcionamiento.
+        </div>
+      </section>
+
+      <section id="informacion" class="card">
+        <h2>1. Información recopilada</h2>
+        <p>Medic App no solicita ni almacena información personal sensible. La app puede requerir los siguientes permisos técnicos:</p>
+        <ul>
+          <li><strong>Cámara:</strong> para funcionalidades internas (p. ej., captura de imágenes para validaciones o conteos). Las imágenes se procesan únicamente con fines funcionales; no se venden ni comparten con terceros.</li>
+          <li><strong>Internet:</strong> necesario para comunicarse con los servicios internos de Medic (API/servidores).</li>
+        </ul>
+        <p>En caso de incorporar inicio de sesión u otras funciones en el futuro, se actualizará esta política detallando cualquier nuevo tratamiento de datos.</p>
+      </section>
+
+      <section id="uso" class="card">
+        <h2>2. Uso de la información</h2>
+        <p>Los datos técnicos mencionados se utilizan exclusivamente para brindar las funcionalidades de la aplicación y mejorar la experiencia del usuario. No realizamos perfilado, venta ni cesión de datos a terceros.</p>
+      </section>
+
+      <section id="seguridad" class="card">
+        <h2>3. Seguridad</h2>
+        <p>Los servicios de backend de Medic emplean buenas prácticas de seguridad y comunicaciones cifradas cuando corresponde. Se aplican controles de acceso y medidas razonables para proteger la integridad y disponibilidad de la información.</p>
+      </section>
+
+      <section id="terceros" class="card">
+        <h2>4. Terceros</h2>
+        <p>Medic App no integra SDKs publicitarios ni herramientas de analítica que recolecten información personal de los usuarios con fines comerciales. Tampoco compartimos datos con terceros, salvo requerimiento legal válido.</p>
+      </section>
+
+      <section id="derechos" class="card">
+        <h2>5. Derechos del usuario</h2>
+        <p>Si considerás que esta política debe ampliarse o rectificarse por nuevas funcionalidades, podés escribirnos y atenderemos tu solicitud con prioridad.</p>
+      </section>
+
+      <section id="cambios" class="card">
+        <h2>6. Cambios en esta política</h2>
+        <p>Podremos actualizar esta política para reflejar mejoras o cambios en la aplicación. Publicaremos la versión vigente en esta misma página indicando la fecha de última actualización.</p>
+      </section>
+
+      <section id="contacto" class="card">
+        <h2>7. Contacto</h2>
+        <p>Si tenés preguntas sobre esta política, escribinos a: <a href="mailto:info@medic.com.ar">info@medic.com.ar</a></p>
+      </section>
+
+      <p class="footer">© Medic Emergencias Médicas — Todos los derechos reservados</p>
+    </main>
+  </div>
+</body>
+</html>
